@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- left menu -->
+    <div class="left_side_menu">
+        <img class="logo" src="img/logo.png" alt="logo">
+        <div class="nav__burger burger">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+        </div>
+        <div class="burger_menu">
+            <a href="#">Главное</a>
+            <a href="#">Мои треки</a>
+            <a href="#">Выйти</a>
+        </div> 
+    </div>
+
+    <!-- header -->
+    <div class="header">
+        <img class="search_icon"src="img/icon/search.svg" alt="">
+        <div class="input_avatar_block">
+            <input placeholder="Поиск" type="text" class="search">
+            <div class="avatar_block">
+                <p class="user_name">Джек Ричер</p>
+                <div class="avatar"></div>
+            </div>
+        </div>
+        <p class="header_title">Треки</p>
+        <div class="search_by_block">
+            <p class="search_by">Искать по:</p>
+            <button class="search_by_button search_by_songer">исполнителю</button>
+            <button class="search_by_button search_by_date">году выпуска</button>
+            <button class="search_by_button search_by_genre">жанру</button>
+        </div>
+
+        <div class="header_tracks_wrap">
+            <div class="content__title playlist-title">
+                <div class="playlist-title__col col01">Трек</div>
+                <div class="playlist-title__col col02">ИСПОЛНИТЕЛЬ</div>
+                <div class="playlist-title__col col03">АЛЬБОМ</div>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5.5" stroke="#696969"/>
+                    <path d="M4 6H6.5V2.5" stroke="#696969"/>
+                </svg>    
+            </div>
+        </div>
+
+    </div> 
+
+    <!-- tracks -->
+    <div class="tracks">
+
+        <div class="track_wrap">
+
+            <div class="playlist__item">
+                <div class="playlist__track track">
+                    <div class="track__title">
+                        <div class="track__title-image">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 16V1.9697L19 1V13" stroke="#4E4E4E"/>
+                                <ellipse cx="4.5" cy="16" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                                <ellipse cx="15.5" cy="13" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                            </svg>
+                        </div>
+                        <div class="track__title-text">
+                            <a class="track__title-link" href="http://">Elektro <span class="track__title-span"></span></a>
+                        </div>
+                    </div>
+                    <div class="track__author">
+                        <a class="track__author-link" href="http://">Dynoro, Outwork, Mr. Gee</a>
+                    </div>
+                    <div class="track__album">
+                        <a class="track__album-link" href="http://">Elektro</a>
+                    </div>
+                    <div class="track__time">
+                        <svg class="track_like" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.34372 2.25572H8.36529C9.29718 1.44175 11.7563 0.165765 13.9565 1.76734C17.3111 4.20921 14.2458 9.5 8.36529 13H8.34372M8.34378 2.25572H8.32221C7.39032 1.44175 4.93121 0.165765 2.73102 1.76734C-0.623552 4.20921 2.44172 9.5 8.32221 13H8.34378" stroke="#696969"/>
+                        </svg>
+                        <span class="track__time-text">2:22</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist__item">
+                <div class="playlist__track track">
+                    <div class="track__title">
+                        <div class="track__title-image">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 16V1.9697L19 1V13" stroke="#4E4E4E"/>
+                                <ellipse cx="4.5" cy="16" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                                <ellipse cx="15.5" cy="13" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                            </svg>
+                        </div>
+                        <div class="track__title-text">
+                            <a class="track__title-link" href="http://">I’m Fire <span class="track__title-span"></span></a>
+                        </div>
+                    </div>
+                    <div class="track__author">
+                        <a class="track__author-link" href="http://">Ali Bakgor</a>
+                    </div>
+                    <div class="track__album">
+                        <a class="track__album-link" href="http://">I’m Fire</a>
+                    </div>
+                    <div class="track__time">
+                        <svg class="track_like" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.34372 2.25572H8.36529C9.29718 1.44175 11.7563 0.165765 13.9565 1.76734C17.3111 4.20921 14.2458 9.5 8.36529 13H8.34372M8.34378 2.25572H8.32221C7.39032 1.44175 4.93121 0.165765 2.73102 1.76734C-0.623552 4.20921 2.44172 9.5 8.32221 13H8.34378" stroke="#696969"/>
+                        </svg>
+                        <span class="track__time-text">2:22</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist__item">
+                <div class="playlist__track track">
+                    <div class="track__title">
+                        <div class="track__title-image">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 16V1.9697L19 1V13" stroke="#4E4E4E"/>
+                                <ellipse cx="4.5" cy="16" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                                <ellipse cx="15.5" cy="13" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                            </svg>
+                        </div>
+                        <div class="track__title-text">
+                            <a class="track__title-link" href="http://">Non Stop <span class="track__title-span">(Remix)</span></a>
+                        </div>
+                    </div>
+                    <div class="track__author">
+                        <a class="track__author-link" href="http://">Стоункат, Psychopath</a>
+                    </div>
+                    <div class="track__album">
+                        <a class="track__album-link" href="http://">Non Stop</a>
+                    </div>
+                    <div class="track__time">
+                        <svg class="track_like" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.34372 2.25572H8.36529C9.29718 1.44175 11.7563 0.165765 13.9565 1.76734C17.3111 4.20921 14.2458 9.5 8.36529 13H8.34372M8.34378 2.25572H8.32221C7.39032 1.44175 4.93121 0.165765 2.73102 1.76734C-0.623552 4.20921 2.44172 9.5 8.32221 13H8.34378" stroke="#696969"/>
+                        </svg>
+                        <span class="track__time-text">4:12</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist__item">
+                <div class="playlist__track track">
+                    <div class="track__title">
+                        <div class="track__title-image">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 16V1.9697L19 1V13" stroke="#4E4E4E"/>
+                                <ellipse cx="4.5" cy="16" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                                <ellipse cx="15.5" cy="13" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                            </svg>
+                        </div>
+                        <div class="track__title-text">
+                            <a class="track__title-link" href="http://">Run Run <span class="track__title-span">(feat. AR/CO)</span></a>
+                        </div>
+                    </div>
+                    <div class="track__author">
+                        <a class="track__author-link" href="http://">Jaded, Will Clarke, AR/CO</a>
+                    </div>
+                    <div class="track__album">
+                        <a class="track__album-link" href="http://">Run Run</a>
+                    </div>
+                    <div class="track__time">
+                        <svg class="track_like" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.34372 2.25572H8.36529C9.29718 1.44175 11.7563 0.165765 13.9565 1.76734C17.3111 4.20921 14.2458 9.5 8.36529 13H8.34372M8.34378 2.25572H8.32221C7.39032 1.44175 4.93121 0.165765 2.73102 1.76734C-0.623552 4.20921 2.44172 9.5 8.32221 13H8.34378" stroke="#696969"/>
+                        </svg>
+                        <span class="track__time-text">2:54</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist__item">
+                <div class="playlist__track track">
+                    <div class="track__title">
+                        <div class="track__title-image">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 16V1.9697L19 1V13" stroke="#4E4E4E"/>
+                                <ellipse cx="4.5" cy="16" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                                <ellipse cx="15.5" cy="13" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                            </svg>
+                        </div>
+                        <div class="track__title-text">
+                            <a class="track__title-link" href="http://">Eyes on Fire <span class="track__title-span">(Zeds Dead Remix)</span></a>
+                        </div>
+                    </div>
+                    <div class="track__author">
+                        <a class="track__author-link" href="http://">Blue Foundation, Zeds Dead</a>
+                    </div>
+                    <div class="track__album">
+                        <a class="track__album-link" href="http://">Eyes on Fire</a>
+                    </div>
+                    <div class="track__time">
+                        <svg class="track_like" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.34372 2.25572H8.36529C9.29718 1.44175 11.7563 0.165765 13.9565 1.76734C17.3111 4.20921 14.2458 9.5 8.36529 13H8.34372M8.34378 2.25572H8.32221C7.39032 1.44175 4.93121 0.165765 2.73102 1.76734C-0.623552 4.20921 2.44172 9.5 8.32221 13H8.34378" stroke="#696969"/>
+                        </svg>
+                        <span class="track__time-text">5:20</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist__item">
+                <div class="playlist__track track">
+                    <div class="track__title">
+                        <div class="track__title-image">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 16V1.9697L19 1V13" stroke="#4E4E4E"/>
+                                <ellipse cx="4.5" cy="16" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                                <ellipse cx="15.5" cy="13" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                            </svg>
+                        </div>
+                        <div class="track__title-text">
+                            <a class="track__title-link" href="http://">Mucho Bien <span class="track__title-span">(Hi Profile Remix)</span></a>
+                        </div>
+                    </div>
+                    <div class="track__author">
+                        <a class="track__author-link" href="http://">HYBIT, Mr. Black, Offer Nissim, Hi Profile</a>
+                    </div>
+                    <div class="track__album">
+                        <a class="track__album-link" href="http://">Mucho Bien</a>
+                    </div>
+                    <div class="track__time">
+                        <svg class="track_like" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.34372 2.25572H8.36529C9.29718 1.44175 11.7563 0.165765 13.9565 1.76734C17.3111 4.20921 14.2458 9.5 8.36529 13H8.34372M8.34378 2.25572H8.32221C7.39032 1.44175 4.93121 0.165765 2.73102 1.76734C-0.623552 4.20921 2.44172 9.5 8.32221 13H8.34378" stroke="#696969"/>
+                        </svg>
+                        <span class="track__time-text">3:41</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist__item">
+                <div class="playlist__track track">
+                    <div class="track__title">
+                        <div class="track__title-image">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 16V1.9697L19 1V13" stroke="#4E4E4E"/>
+                                <ellipse cx="4.5" cy="16" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                                <ellipse cx="15.5" cy="13" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                            </svg>
+                        </div>
+                        <div class="track__title-text">
+                            <a class="track__title-link" href="http://">Knives n Cherries <span class="track__title-span"></span></a>
+                        </div>
+                    </div>
+                    <div class="track__author">
+                        <a class="track__author-link" href="http://">minthaze</a>
+                    </div>
+                    <div class="track__album">
+                        <a class="track__album-link" href="http://">Captivating</a>
+                    </div>
+                    <div class="track__time">
+                        <svg class="track_like" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.34372 2.25572H8.36529C9.29718 1.44175 11.7563 0.165765 13.9565 1.76734C17.3111 4.20921 14.2458 9.5 8.36529 13H8.34372M8.34378 2.25572H8.32221C7.39032 1.44175 4.93121 0.165765 2.73102 1.76734C-0.623552 4.20921 2.44172 9.5 8.32221 13H8.34378" stroke="#696969"/>
+                        </svg>
+                        <span class="track__time-text">1:48</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist__item">
+                <div class="playlist__track track">
+                    <div class="track__title">
+                        <div class="track__title-image">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 16V1.9697L19 1V13" stroke="#4E4E4E"/>
+                                <ellipse cx="4.5" cy="16" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                                <ellipse cx="15.5" cy="13" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                            </svg>
+                        </div>
+                        <div class="track__title-text">
+                            <a class="track__title-link" href="http://">How Deep Is Your Love <span class="track__title-span"></span></a>
+                        </div>
+                    </div>
+                    <div class="track__author">
+                        <a class="track__author-link" href="http://">Calvin Harris, Disciples</a>
+                    </div>
+                    <div class="track__album">
+                        <a class="track__album-link" href="http://">How Deep Is Your Love</a>
+                    </div>
+                    <div class="track__time">
+                        <svg class="track_like" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.34372 2.25572H8.36529C9.29718 1.44175 11.7563 0.165765 13.9565 1.76734C17.3111 4.20921 14.2458 9.5 8.36529 13H8.34372M8.34378 2.25572H8.32221C7.39032 1.44175 4.93121 0.165765 2.73102 1.76734C-0.623552 4.20921 2.44172 9.5 8.32221 13H8.34378" stroke="#696969"/>
+                        </svg>
+                        <span class="track__time-text">3:32</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist__item">
+                <div class="playlist__track track">
+                    <div class="track__title">
+                        <div class="track__title-image">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 16V1.9697L19 1V13" stroke="#4E4E4E"/>
+                                <ellipse cx="4.5" cy="16" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                                <ellipse cx="15.5" cy="13" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                            </svg>
+                        </div>
+                        <div class="track__title-text">
+                            <a class="track__title-link" href="http://">Morena <span class="track__title-span"></span></a>
+                        </div>
+                    </div>
+                    <div class="track__author">
+                        <a class="track__author-link" href="http://">Tom Boxer</a>
+                    </div>
+                    <div class="track__album">
+                        <a class="track__album-link" href="http://">Soundz Made in Romania</a>
+                    </div>
+                    <div class="track__time">
+                        <svg class="track_like" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.34372 2.25572H8.36529C9.29718 1.44175 11.7563 0.165765 13.9565 1.76734C17.3111 4.20921 14.2458 9.5 8.36529 13H8.34372M8.34378 2.25572H8.32221C7.39032 1.44175 4.93121 0.165765 2.73102 1.76734C-0.623552 4.20921 2.44172 9.5 8.32221 13H8.34378" stroke="#696969"/>
+                        </svg>
+                        <span class="track__time-text">3:36</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>                        
+    </div>
+</div>
+
+
+<!-- playlist -->
+<div class="playlist_block">
+    <div class="playlist playlist01"></div>
+    <div class="playlist playlist02"></div>
+    <div class="playlist playlist03"></div>
+</div>
+
+<!-- player -->
+
+<div class="bar">
+    <div class="bar__content">
+        <div class="bar__player-progress"></div>
+        <div class="bar__player-block">
+            <div class="bar__player player">
+                <div class="player__controls">
+                    <div class="player__btn-prev player_buttons">
+                        <img src="img/icon/prev.svg" alt="buttons">
+                    </div>
+                    <div class="player__btn-play _btn player_buttons">
+                        <img src="img/icon/play.svg" alt="buttons">
+                    </div>
+                    <div class="player__btn-next player_buttons">
+                        <img src="img/icon/next.svg" alt="buttons">
+                    </div>
+                    <div class="player__btn-repeat _btn-icon player_buttons">
+                        <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 3L5 0.113249V5.88675L10 3ZM7 14.5C3.96243 14.5 1.5 12.0376 1.5 9H0.5C0.5 12.5899 3.41015 15.5 7 15.5V14.5ZM1.5 9C1.5 5.96243 3.96243 3.5 7 3.5V2.5C3.41015 2.5 0.5 5.41015 0.5 9H1.5Z" fill="#696969"/>
+                            <path d="M10 15L15 17.8868V12.1132L10 15ZM13 3.5C16.0376 3.5 18.5 5.96243 18.5 9H19.5C19.5 5.41015 16.5899 2.5 13 2.5V3.5ZM18.5 9C18.5 12.0376 16.0376 14.5 13 14.5V15.5C16.5899 15.5 19.5 12.5899 19.5 9H18.5Z" fill="#696969"/>
+                            </svg>
+                            
+                    </div>
+                    <div class="player__btn-shuffle _btn-icon player_buttons">
+                        <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.5 15L14.5 12.1132V17.8868L19.5 15ZM10.1632 12.0833L9.70863 12.2916L10.1632 12.0833ZM7.33683 5.91673L6.8823 6.12505L7.33683 5.91673ZM0.5 3.5H2.79151V2.5H0.5V3.5ZM6.8823 6.12505L9.70863 12.2916L10.6177 11.8749L7.79137 5.7084L6.8823 6.12505ZM14.7085 15.5H15V14.5H14.7085V15.5ZM9.70863 12.2916C10.6047 14.2466 12.5579 15.5 14.7085 15.5V14.5C12.949 14.5 11.3508 13.4745 10.6177 11.8749L9.70863 12.2916ZM2.79151 3.5C4.55105 3.5 6.14918 4.52552 6.8823 6.12505L7.79137 5.7084C6.89533 3.75341 4.94205 2.5 2.79151 2.5V3.5Z" fill="#696969"/>
+                            <path d="M19.5 3L14.5 5.88675V0.113249L19.5 3ZM10.1632 5.91673L9.70863 5.7084L10.1632 5.91673ZM7.33683 12.0833L6.8823 11.8749L7.33683 12.0833ZM0.5 14.5H2.79151V15.5H0.5V14.5ZM6.8823 11.8749L9.70863 5.7084L10.6177 6.12505L7.79137 12.2916L6.8823 11.8749ZM14.7085 2.5H15V3.5H14.7085V2.5ZM9.70863 5.7084C10.6047 3.75341 12.5579 2.5 14.7085 2.5V3.5C12.949 3.5 11.3508 4.52552 10.6177 6.12505L9.70863 5.7084ZM2.79151 14.5C4.55105 14.5 6.14918 13.4745 6.8823 11.8749L7.79137 12.2916C6.89533 14.2466 4.94205 15.5 2.79151 15.5V14.5Z" fill="#696969"/>
+                            </svg>
+                            
+                    </div>
+                </div>
+                
+                <div class="player__track-play track-play">
+                    <div class="track-play__contain">
+                        <div class="track-play__image">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 16V1.9697L19 1V13" stroke="#4E4E4E"/>
+                                <ellipse cx="4.5" cy="16" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                                <ellipse cx="15.5" cy="13" rx="3.5" ry="2" stroke="#4E4E4E"/>
+                            </svg>
+                        </div>
+                        <div class="track-play__author">
+                            <a class="track-play__author-link" href="http://">Ты та...</a>
+                        </div>
+                        <div class="track-play__album">
+                            <a class="track-play__album-link" href="http://">Баста</a>
+                        </div>
+                    </div>
+
+                    <div class="track-play__like-dis">
+                        <div class="track-play__like _btn-icon player_buttons">
+                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.34372 2.25572H8.36529C9.29718 1.44175 11.7563 0.165765 13.9565 1.76734C17.3111 4.20921 14.2458 9.5 8.36529 13H8.34372M8.34378 2.25572H8.32221C7.39032 1.44175 4.93121 0.165765 2.73102 1.76734C-0.623552 4.20921 2.44172 9.5 8.32221 13H8.34378" stroke="#696969"/>
+                                </svg>
+                        </div>
+                        <div class="track-play__dislike _btn-icon player_buttons">
+                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L15 13.5" stroke="#696969"/>
+                                <path d="M8.34372 3.25572H8.36529C9.29718 2.44175 11.7563 1.16576 13.9565 2.76734C17.3111 5.20921 14.2458 10.5 8.36529 14H8.34372M8.34378 3.25572H8.32221C7.39032 2.44175 4.93121 1.16576 2.73102 2.76734C-0.623552 5.20921 2.44172 10.5 8.32221 14H8.34378" stroke="#696969"/>
+                                </svg>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar__volume-block volume">
+               <div class="volume__content">
+                    <div class="volume__image">
+                        <svg class="volume__svg" alt="volume">
+                            <use xlink:href="img/icon/sprite.svg#icon-volume"></use>
+                        </svg>
+                    </div>
+                    <div class="volume__progress _btn">
+                        <input class="volume__progress-line _btn" type="range" name="range">
+                    </div>
+                    
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  -->
+
+<script>
+
+// burger menu
+const burger_button = document.querySelector('.nav__burger');
+const burger_menu = document.querySelector('.burger_menu');
+burger_button.addEventListener('click',function(){
+    burger_menu.classList.toggle('burger_menu_open')
+})
+
+
+// player
+const player = document.querySelector('.bar');
+const track_links = ['.track__title-link','.track__author-link','.track__album-link'];
+
+const track_links_click = document.querySelectorAll(track_links);
+
+for(track of track_links_click){
+    track.addEventListener('click',function(e){
+    e.preventDefault();
+    player.classList.add('bar_open')
+})
+}
+
+
+
+
+</script>
+    
+</body>
+</html>
